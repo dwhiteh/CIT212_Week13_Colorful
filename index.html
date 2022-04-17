@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dale's Colorful Pages</title>
+    <style>
+        header {
+            height: 100px;
+            background-color: #80033E;
+            font-size: 150%;
+            text-align: center;
+            line-height: 100px;
+            border-radius: 15px;
+            width: calc(100% - 10px);
+            margin: auto;
+            color: #FD51A1;
+        }
+
+        @media all and (min-width: 1000px) {
+            .container {
+                width: 1000px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header><h1>Colorful Pages</h1></header>
+
+<div class="container">
+    <div class="flexone"></div>
+    <div class="flex2"></div>
+    <div class="flex3"></div>
+
+</div>
+
+</body>
+<script>
+    let quest= document.querySelector(".container");
+    quest.style.backgroundColor = "#FD51A1";
+    quest.style.border = "thick solid #FC0579";
+    quest.style.display = "flex";
+    quest.style.flexDirection = "wrap";
+    quest.style.padding = "10px";
+    quest.style.margin = "auto";
+    quest.style.marginTop = "10px";
+    quest.style.borderRadius = "15px";
+    quest.style.flexWrap = "wrap";
+    quest.style.justifyContent = "space-between";
+
+    let flexone= document.querySelector(".flexone");
+    flexone.style.backgroundColor = "#C90460";
+    flexone.style.borderRadius = "15px";
+    flexone.style.border = "thick solid #FC0579";
+    flexone.style.height = "300px";
+    flexone.style.width = "450px";
+    flexone.style.position = "relative";
+    flexone.style.margin = "10px";
+
+    let flex2= document.querySelector(".flex2");
+    flex2.style.backgroundColor = "#7D2850";
+    flex2.style.borderRadius = "15px";
+    flex2.style.border = "thick solid #FC0579";
+    flex2.style.height = "300px";
+    flex2.style.width = "450px";
+    flex2.style.position = "relative";
+    flex2.style.margin = "10px";
+
+    let flex3 = document.querySelector(".flex3");
+    flex3.style.backgroundColor = "#80033E";
+    flex3.style.borderRadius = "15px";
+    flex3.style.border = "thick solid #FC0579";
+    flex3.style.height = "300px";
+    flex3.style.width = "450px";
+    flex3.style.position = "relative";
+    flex3.style.margin = "10px";
+    
+
+</script>
+</html>
